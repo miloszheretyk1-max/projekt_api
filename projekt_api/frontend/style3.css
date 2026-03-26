@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(239, 186, 95);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 ;
+}
+header{
+    display: flex;
+    font-size: larger;
+    padding-left: 30px ;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    border: 1px black solid;
+}
+nav form{
+    display: flex;
+}
+nav a{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav a:hover{
+    padding: 10px;
+    background-color: rgb(234, 165, 46);
+}
+main{
+    display: grid;
+}
+.login{
+    justify-self: center;
+    margin: 0 auto;
+    background-color: rgb(236, 171, 58);
+    padding: 20px 40px;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.login form *{
+    width: 400x;
+    padding: 4px 0px 4px 8px;
+    font-size: 110%;
+}
+.login hr{
+    border: 2px solid rgb(190, 121, 0);
+    width: 100%;
+    margin: 30px 0px;
+}
+.login form h3{
+    color: red;
+}

@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(239, 186, 95);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 ;
+}
+header{
+    display: flex;
+    font-size: larger;
+    padding-left: 30px ;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    border: 1px black solid;
+}
+nav form{
+    display: flex;
+}
+nav a{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav a:hover{
+    padding: 10px;
+    background-color: rgb(234, 165, 46);
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    float: left;
+    width: 50%;
+}
+.product{
+    margin: 30px 20px;
+    background-color: rgb(176, 112, 0);
+    border-radius: 5px;
+
+}
+.product img{
+    width: 120px;
+    margin: 10px;
+    float: left;
+}
+.product div{
+    float: right;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+aside{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
